@@ -1,0 +1,151 @@
+.box{
+    /* width: 450px; */
+    width: 30vw;
+    height: 220px;
+    /* background-color:black; */
+    /* background: transparent linear-gradient(118deg, #FFA2A2 0%, #9B9BFF 100%) 0% 0% no-repeat padding-box; */
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.box img{
+    width: 30vw;
+    height: 220px;
+}
+
+.h2{
+    text-align: center;
+    margin: 0px;
+    margin-top:  28px;
+    font-size: 30px;
+    font: normal normal normal 35px/18px Product Sans;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: white;
+}
+.h2ManageVideos{
+    text-align: center;
+    margin: 0px;
+    margin-top:  28px;
+    font: normal normal normal 35px/18px Product Sans;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: white;
+    line-height: 0.7;
+}
+
+.h3{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    margin-left: 28px;
+    margin-right: 23px;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .h2{
+        font-size: 25px;
+    }
+    
+    .h3{
+        font-size: 17px;
+    }
+    .box img{
+        height: 200px;
+    }
+    .box{
+        height: 200px;
+    }
+}
+
+@media (max-width:1000px) {
+    .box{
+        height: 240px;
+        width: 40vw;
+    }
+    .box img{
+        height: 240px;
+        width: 40vw;
+    }
+    .h2{
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h3{
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:850px) {
+    .box{
+        height: 210px;
+    }
+    .box img{
+        height: 210px;
+    }
+}
+@media (max-width:750px) {
+    .box{
+        height: 180px;
+    }
+    .box img{
+        height: 180px;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    
+    .h3{
+        font-size: 15px;
+    }
+}
+@media (max-width:650px) {
+    .box img{
+        width: 70vw;
+        height: 250px;
+    }
+    .box{
+        width: 70vw;
+        height: 250px;
+    }
+    .h2{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h3{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:550px) {
+    .box{
+        width: 70vw;
+        height: 220px;
+    }
+    .box img{
+        width: 70vw;
+        height: 220px;
+    }
+}
+@media (max-width:450px) {
+    .box{
+        width: 70vw;
+        height: 40vw;
+    }
+    .box img{
+        width: 70vw;
+        height: 40vw;
+    }
+}

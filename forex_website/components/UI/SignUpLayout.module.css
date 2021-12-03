@@ -1,0 +1,53 @@
+.signuplayout{
+    position: fixed;
+    /* top: 5%; */
+    left: 15%;
+    /* bottom: 5%; */
+    z-index: 10;
+    background-color: #292929;
+    box-shadow: #000000 0px 10px 20px;
+    
+    width: 70%;
+    /* height: 90%; */
+    height: 560px;
+    
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: transparent radial-gradient(closest-side at 63% 50%, #292929 0%, #1a1a1a 100%) 0% 0% no-repeat padding-box;
+    
+    animation: slide-down 300ms ease-out forwards;
+}
+
+@media (max-width: 800px) {
+    .signuplayout{
+        flex-direction: column;
+        /* height: 100vh; */
+        overflow-y: scroll;  
+        /* padding-bottom: 50px;  */
+    }
+    .signuplayout::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+  .signuplayout{
+    border-radius: 15px;
+    width: 80%;
+    left: 10%;
+  }
+}
+
+
+
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

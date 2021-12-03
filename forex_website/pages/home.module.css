@@ -1,0 +1,93 @@
+.background{
+    /* width: 100vw; */
+    /* height: 4868px; */
+    z-index: 1;
+    position: relative;
+    /* overflow-x: hidden; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.background::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* background: #595959 0% 0% no-repeat padding-box; */
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+    /* max-width: 100vw; */
+    /* overflow-x:hidden; */
+    z-index: -150;
+}
+
+.signal{
+    display: block;
+    background: url('/signal.png') no-repeat center center/cover;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    bottom: 120px;
+    right: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    z-index: 5;
+    filter: drop-shadow(0px 3px 6px #000000);
+}
+
+.signal:hover,
+.signal:active{
+    opacity: 0.6;
+}
+
+.textSignal{
+    display: block;
+    position: fixed;
+    bottom: 130px;
+    right: 120px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: all ease 0.5s;
+    z-index: 5;
+}
+
+.whatsapp{
+    display: block;
+    background: url('../assets/whatsapplogo.png') no-repeat center center/cover;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    z-index: 5;
+    filter: drop-shadow(0px 3px 6px #000000);
+}
+.whatsapp:hover,
+.whatsapp:active{
+    opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+    .whatsapp{
+        height: 65px!important;
+        width: 65px!important;
+    }
+    .signal{
+        height: 65px!important;
+        width: 65px!important;
+    }
+}
+@media (max-width: 600px) {
+    .whatsapp{
+        height: 55px!important;
+        width: 55px!important;
+    }
+    .signal{
+        height: 55px!important;
+        width: 55px!important;
+    }
+}

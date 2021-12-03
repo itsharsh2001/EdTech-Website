@@ -1,0 +1,238 @@
+.registervia{
+    flex: 0.2;
+    /* border-right: 2px solid white; */
+    height:90%!important;
+    max-height: 90%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    /* justify-content: space-evenly!important; */
+    align-items: flex-start;
+   
+}
+
+.registervia h3{
+    font-size: 17px;
+    font-weight: normal;
+color: #FFFFFF;
+/* margin-left: 50px; */
+margin-bottom: 0px;
+margin-top: 0px;
+text-align: left;
+opacity: 0;
+}
+
+.registervia section{
+    display: flex;
+    /* margin-top: 15px; */
+}
+
+.registervia section span:nth-child(1){
+    opacity: 0;
+    background: url('../../assets/google-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 45px;
+    width: 45px;
+    /* cursor: pointer; */
+    /* transition: all ease 0.5s; */
+}
+/* .registervia section span:nth-child(1):hover{
+    opacity: 0.6;
+} */
+.registervia section span:nth-child(2){
+    opacity: 0;
+    background: url('../../assets/fb-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 45px;
+    width: 45px;
+    /* margin-left: 20px; */
+    /* cursor: pointer; */
+    /* transition: all ease 0.5s; */
+}
+/* .registervia section span:nth-child(2):hover{
+    opacity: 0.6;
+} */
+.registervia section span:nth-child(3){
+    opacity: 0;
+    background: url('../../assets/apple-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 45px;
+    width: 45px;
+    /* margin-left: 20px; */
+    transition: all ease/ 0.5s;
+    /* cursor: pointer; */
+}
+/* .registervia section span:nth-child(3):hover{
+    opacity: 0.6;
+} */
+
+.registervia section div{
+    width: 0;
+    /* height: 430px; */
+    /* border-right: 2px solid white; */
+    /* margin-left: 50px; */
+    /* margin-top: -40px; */
+    /* margin: auto; */
+}
+
+.registervia p{
+    color: #A6A6A6;
+    font-size: 14px;
+    margin-left: -45px!important;
+}
+
+.p1{
+    margin-top: 50px;
+}
+.p2{
+
+    /* margin-top: -296px; */
+}
+.p3{
+    
+    margin-top: 165px;
+}
+.p4{
+    
+    margin-top: 225px;
+}
+.p5{
+    
+    margin-top: 280px;
+}
+.p6{
+    
+    margin-top: 340px;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+
+@media (max-width:1368px) {
+    .registervia p{
+        /* margin-left: -28px!important; */
+    }
+}
+@media (max-width:1232px) {
+    .registervia p{
+        /* margin-left: -5px!important; */
+    }
+}
+
+
+@media (max-width: 1310px) {
+    .registervia p{
+        /* margin-left: -50px; */
+    }
+    .registervia p{
+        display: none;
+    }
+
+    .registervia{
+        flex: 0.1!important;
+        display: none !important;
+    }
+}
+@media (max-width: 1240px) {
+    .registervia p{
+        /* margin-left: -40px; */
+    }
+}
+
+@media (max-width: 1200px) {
+    .p1{
+        /* margin-top: -337px; */
+        
+    }
+    .p2{
+        /* margin-top: -290px; */
+    }
+    .p3{
+        /* margin-top: -243px; */
+    }
+    .p4{
+        /* margin-top: -191px; */
+    }
+    .p5{
+        /* margin-top: -145px; */
+    }
+    .p6{
+        /* margin-top: -95px; */
+    }
+    .registervia section div{
+        /* margin-top: -55px; */
+        /* margin-left: 0px; */
+    }
+}
+
+@media (max-width: 1130px) {
+    .registervia p{
+        /* margin-left: -25px; */
+    }
+}
+@media (max-width: 1120px) {
+    .registervia p{
+        /* margin-left: -35px; */
+    }
+}
+
+
+@media (max-width: 1090px) {
+    .p1{
+        /* margin-top: -322px; */
+        
+    }
+    .p2{
+        /* margin-top: -278px; */
+    }
+    .p3{
+        /* margin-top: -233px; */
+    }
+    .p4{
+        /* margin-top: -189px; */
+    }
+    .p5{
+        /* margin-top: -146px; */
+    }
+    .p6{
+        /* margin-top: -101px; */
+    }
+}
+
+@media (max-width: 1077px) {
+    .registervia p{
+        display: none;
+    }
+    .registervia{
+        flex: 0.1!important;
+        display: none !important;
+    }
+    /* .registervia section div{
+        margin-top: -55px;
+        margin-left: -185px;
+    } */
+}
+
+@media (max-width: 1000px) {
+    .registervia section div{
+        margin-left: -175px;
+    }
+}
+@media (max-width: 900px) {
+    /* .registervia section div{
+        margin-left: -165px;
+    } */
+}
+@media (max-width: 800px) {
+    /* .registervia section div{
+        display: none;
+    } */
+    .registervia{
+        display: none;
+        /* position: static; */
+    }
+}

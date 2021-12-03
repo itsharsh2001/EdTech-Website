@@ -1,0 +1,472 @@
+.checkotp{
+    flex: 0.4;
+    height: 90%!important;
+    max-height: 90%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.checkotp div p,
+.checkotp div a
+{
+    display: none;
+    font-size: 14px;
+}
+
+.checkotp h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+    /* margin: 0; */
+    margin: auto;
+    width: 264px;
+    text-align:left;
+    /* margin-left: 60px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.checkotp span{
+    background: url('../../assets/smartphone03.png') no-repeat center center/cover;
+    display: block;
+    height: 210px;
+    width: 210px;
+    margin: auto;
+    /* margin-left: 20px; */
+    /* transition: all ease 0.5s; */
+    /* margin-left: 80px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.checkotp div{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.checkotp div input{
+    font-family: Product Sans;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.checkotp button{
+    font-family: Product Sans;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.checkotp div a{
+    margin: 0;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+@media (max-width:1310px) {
+    .checkotp{
+        flex: 0.5!important;
+    }
+    .checkotp div p{
+        display: block;
+        margin-left: 0!important;
+        margin-top: 10px!important;
+        margin-bottom: 10px!important;
+        width: 280px;
+        color: #A6A6A6;
+        padding-left: 5%;
+
+    }
+    .checkotp div a{
+        display: block;
+        margin-left: 0!important;
+        margin-top: 10px!important;
+        margin-bottom: 10px!important;
+        width: 200px;
+        /* color: #A6A6A6; */
+        padding-left: 5%;
+        color: #0099FF;
+        text-decoration: none;
+    }
+}
+
+
+
+@media (max-width: 1290px) {
+    /* .checkotp{
+        margin: 1% 2%!important;
+    } */
+}
+
+@media (max-width: 1240px) {
+    .checkotp{
+        /* margin-top: -10px; */
+    }
+}
+@media (max-width: 1200px) {
+    .checkotp div input{
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 40px!important;
+    }
+    .checkotp div button{
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 40px!important;
+    }
+    .checkotp h3{
+
+        width:252px;
+        
+        }
+        
+        .checkotp h2{
+            
+            width: 252px;
+            
+        }
+
+        .checkotp div p{
+            
+            width: 260px;
+        
+    
+        }
+        /* .checkotp div a{
+             width: 200px;
+
+        } */
+}
+@media (max-width: 1090px) {
+    .checkotp h3{
+    
+        width:233px;
+        /* padding-left: 1px!important; */
+        /* padding-right: -1px!important; */
+        
+        }
+        
+        .checkotp h2{
+            
+            width: 232px;
+            
+        }
+        .checkotp div p{
+            
+            width: 230px;
+        
+    
+        }
+}
+
+@media (max-width: 1077px) {
+    .checkotp{
+        flex: 0.5!important;
+        /* margin: 1% 2%!important; */
+    }
+    /* .checkotp div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+    /* .checkotp div p,
+    .checkotp div a{
+        text-align: left;
+        display: block;
+        margin: auto;
+        width: 280px;
+    } */
+    .checkotp p{
+        color: #A6A6A6;
+        font-size: 14px;
+        /* margin-top: 10px!important; */
+        /* margin-left: 60px!important; */
+    }
+    .checkotp a{
+        color: #0099FF;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        /* margin-left: 60px!important; */
+    }
+}
+
+
+@media (max-width: 1044px) {
+    .checkotp{
+        /* margin-top: -20px; */
+    }
+}
+@media (max-width: 1033px) {
+    .checkotp{
+        /* margin: 0% 0%!important; */
+
+    }
+    
+}
+@media (max-width: 954px) {
+    .checkotp{
+        /* padding-left: 0px; */
+    }
+}
+@media (max-width: 850px) {
+    .checkotp{
+        /* margin-left: -20px; */
+    }
+}
+
+@media (max-width: 800px) {
+    .checkotp{
+        position: static;
+        margin-bottom: 0;
+        flex: 0.6!important;
+        width:60%;
+        /* margin: 5% 5.6%!important; */
+        /* margin-top: 30px;
+        margin-bottom: 0; */
+        /* margin-left: 17px;
+        margin-right: 17px; */
+        height: 450px;
+        margin-top:40px;
+        max-height: 450px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .checkotp span{
+        height: 175px;
+        width: 175px;
+    }
+    /* .checkotp span{
+        margin: auto;
+    } */
+    .checkotp div{
+        /* display: block; */
+        /* margin: auto; */
+    }
+    .checkotp div p{
+        width: 250px;
+        display: block;
+        /* margin: auto!important; */
+        /* margin-top: 10px!important; */
+        margin-left: 0px!important;
+        /* text-align: left; */
+        margin-bottom: 0!important;
+
+    }
+    .checkotp div a{
+        width: 250px;
+        display: block;
+        margin-bottom: 0!important;
+        /* margin: auto!important; */
+        /* margin-bottom: 10px!important; */
+        /* margin-left: 40px!important; */
+        /* text-align: left; */
+    }
+    .checkotp h2{
+        /* margin-top: 60px; */
+        /* display: block; */
+        /* padding-top: 40px; */
+        /* padding-bottom: 30px; */
+        /* margin: auto; */
+        /* text-align: left; */
+        /* margin-left: 40px; */
+    }
+    .checkotp input{
+        /* margin: auto; */
+        margin-top: 20px!important;
+        /* margin-left: 40px; */
+    }
+    .checkotp button{
+        /* margin: auto; */
+        /* margin-left: 40px; */
+        margin-top: 20px!important;
+    }
+}
+
+@media (max-width: 750px) {
+    .checkotp{
+        /* margin: 5% 6%!important; */
+    }    
+}
+@media (max-width: 700px) {
+    .checkotp{
+        /* margin: 5% 6.5%!important; */
+    }    
+}
+
+@media (max-width: 680px) {
+    .checkotp{
+        /* margin-left: 0px; */
+        /* margin-right: 17px; */
+    }
+    .checkotp h3{
+       width: 210px;
+    }
+    .checkotp h2{
+        width: 210px;
+        font-size: 28px;
+        /* margin-top: 30px; */
+        /* width: 90%!important; */
+    }
+    .checkotp div p{
+        width: 230px;
+        display: block;
+        /* margin: auto!important; */
+        /* margin-top: 10px!important; */
+        margin-left: 0px!important;
+        /* text-align: left; */
+        margin-bottom: 0!important;
+
+    }
+    .checkotp div a{
+        width: 230px;
+        display: block;
+        margin-bottom: 0!important;
+        /* margin: auto!important; */
+        /* margin-bottom: 10px!important; */
+        /* margin-left: 40px!important; */
+        /* text-align: left; */
+    }
+}
+
+@media (max-width: 650px) {
+    .checkotp{
+        /* margin: 5% 7%!important; */
+    }    
+}
+
+@media (max-width:620px) {
+    .checkotp{
+        padding-bottom: 10vh;
+        /* margin-left: 10%!important; */
+        /* margin-right: 6%!important; */
+    }
+    .checkotp span{
+        /* margin: auto; */
+    }
+    .checkotp div{
+        flex-direction: column;
+        align-items: flex-start;
+   
+    }
+    .checkotp div p{
+        /* margin: auto!important; */
+        /* margin-top: 10px!important; */
+        /* text-align: center; */
+    }
+    .checkotp div a{
+        /* margin: auto!important; */
+        /* margin-bottom: 10px!important; */
+        /* text-align: center; */
+    }
+    .checkotp h2{
+        /* margin: auto; */
+        /* text-align: center; */
+        /* margin-left: none; */
+    }
+    .checkotp input{
+        /* margin: auto; */
+        /* margin-top: 30px; */
+        /* margin-left: none; */
+    }
+    .checkotp button{
+        /* margin: auto; */
+        /* margin-left: none; */
+    }
+}
+
+@media (max-width:500px) {
+    .checkotp input
+    {
+        width: 150px!important;
+    }
+    .checkotp button{
+        width: 172px!important
+    }
+    .checkotp h2,
+    .checkotp h3,
+    .checkotp div p{
+        width: 172px;
+    }
+    .checkotp h2{
+        font-size:24px;
+    }
+    .checkotp div p,
+    .checkotp div a{
+        width: 190px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .checkotp span{
+        height: 200px;
+        width: 200px;
+    } */
+}
+
+@media (max-width: 420px) {
+    /* .checkotp div p{
+        width: 200px;
+    }
+    .checkotp div a{
+        width: 200px;
+    } */
+}
+
+@media (max-width: 400px) {
+    .checkotp h3{
+        font-size: 16px;
+    }
+    .checkotp h2,
+    .checkotp h3,
+    .checkotp input,
+    .checkotp button
+    {
+        /* margin-left: 18px!important; */
+    }
+    .checkotp div p{
+        /* margin-left: 18px!important; */
+    }
+    .checkotp input
+    {
+        width: 120px!important;
+    }
+    .checkotp button{
+        width: 142px!important
+    }
+    .checkotp h2,
+    .checkotp h3,
+    .checkotp div p{
+        width: 142px;
+    }
+
+    .checkotp div p,
+    .checkotp div a{
+        width: 152px;
+    }
+    .checkotp h2{
+        font-size:20px;
+    }
+    .checkotp span{
+        height: 150px;
+        width: 150px;
+    }
+}

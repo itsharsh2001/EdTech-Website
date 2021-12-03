@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express-formidable": "^1.2.0",
+    "node-fetch": "^3.0.0",
+    "nprogress": "^0.2.0",
+    "react-draggable": "^4.4.4"
+  }
+}

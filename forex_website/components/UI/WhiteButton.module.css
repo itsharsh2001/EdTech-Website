@@ -1,0 +1,50 @@
+.whitebutton button{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 268px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.whitebutton button:hover,
+.whitebutton button:active{
+    color: #ffffff;
+    background-color: #707070;
+}
+
+@media (max-width: 1200px) {
+    .whitebutton button{
+        width: 250px;
+    height: 36px;
+    }
+}
+@media (max-width: 1090px) {
+    .whitebutton button{
+        width: 230px;
+    height: 32px;
+    }
+}
+
+@media (max-width: 680px) {
+    .whitebutton button{
+        width: 210px;
+    height: 29px;
+    border-radius: 5px;
+    font-size: 14px;
+    }
+}
+@media (max-width: 400px) {
+    .whitebutton button{
+        width: 190px;
+    }
+}

@@ -1,0 +1,305 @@
+.register{
+    flex: 0.4;
+    height: 90%!important;
+    max-height: 90%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin: 3% 5%!important; */
+}
+.register p{
+    display: none;
+}
+
+.register h3{
+    font-size: 18px;
+    font-weight: normal;
+color: #FFFFFF;
+/* margin: 0; */
+display: block;
+margin: auto;
+/* margin-top:0; */
+/* margin-bottom:0; */
+text-align:left;
+width: 264px;
+/* margin-left: 60px; */
+margin-bottom: 0px; 
+margin-top: 0px;
+}
+
+.register h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+    /* margin: 0; */
+    margin: auto;
+    width: 264px;
+    text-align:left;
+    /* margin-left: 60px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.register div{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.register div input{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    font-family: Product Sans;
+    margin-bottom: 0;
+}
+
+.register button{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Product Sans!important;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+
+@media (max-width:1310px) {
+    .register{
+        flex: 0.5!important;
+    }
+    .register div p{
+        display: block;
+        margin-left: 0!important;
+        margin-top: 10px!important;
+        margin-bottom: 0!important;
+        width: 200px;
+        color: #A6A6A6;
+        padding-left: 5%;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    
+        .register div input{
+            display: block;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            height: 40px!important;
+        }
+        .register div button{
+            display: block;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            height: 40px!important;
+        }
+        .register h3{
+    
+            width:252px;
+            
+            }
+            
+            .register h2{
+                
+                width: 252px;
+                
+            }
+}
+@media (max-width: 1090px) {
+    .register{
+        /* margin: 7.5% 5%!important; */
+    }
+    .register h3{
+    
+        width:233px;
+        /* padding-left: 1px!important; */
+        /* padding-right: -1px!important; */
+        
+        }
+        
+        .register h2{
+            
+            width: 232px;
+            
+        }
+}
+
+@media (max-width: 1077px) {
+    .register{
+        flex: 0.5!important;
+        /* margin: 2.5% 1%!important; */
+    }
+    .register p{
+        /* display: block; */
+        /* margin-top: 6px; */
+        /* margin-bottom: -5px; */
+        color: #A6A6A6;
+        font-size: 14px;
+        /* margin-left: 65px; */
+    }
+    
+}
+@media (max-width: 1000px) {
+    .register{
+        /* padding-left: 25px; */
+    }
+}
+
+@media (max-width: 950px) {
+    .register{
+        /* padding-left: 20px; */
+    }
+}
+@media (max-width: 900px) {
+    .register{
+        /* padding-left: 0px; */
+    }
+}
+@media (max-width: 800px) {
+    .register{
+        position: static;
+        margin-bottom: 0;
+        flex: 0.6!important;
+        width:60%;
+        margin-top: 40px;
+        margin-bottom: 0;
+        /* margin-left: 16px!important; */
+        /* margin-right: 17px!important; */
+        height: 450px;
+        max-height: 450px; 
+        display: flex;
+        flex-direction: column;
+    }
+    /* .register div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } */
+    .register div p{
+        display: block;
+        margin-left: 0!important;
+        width: 200px;
+    }
+    .register h3{
+        margin-top: 60px;
+        /* margin-bottom: 30px; */
+        /* width: 100%!important; */
+    }
+    .register h2{
+        /* margin-top: 30px; */
+        /* width: 90%!important; */
+    }
+    .register input{
+        margin-top: 20px!important;
+        /* width: 90%!important; */
+    }
+    .register button{
+        margin-top: 20px!important;
+        /* width: 90%!important; */
+    }
+    .register a{
+        /* margin-top: 60px; */
+        /* width: 90%!important; */
+    }
+}
+
+@media (max-width: 680px) {
+    .register{
+        /* margin-left: 0px; */
+        /* margin-right: 17px; */
+    }
+    .register h3{
+       width: 210px;
+    }
+    .register h2{
+        width: 210px;
+        font-size: 28px;
+        /* margin-top: 30px; */
+        /* width: 90%!important; */
+    }
+}
+
+@media (max-width: 620px) {
+    .register div{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .register div p{
+        /* margin-left: 25px!important; */
+    }
+    .register{
+        /* margin: auto!important; */
+        padding-bottom: 115px;
+    }
+    /* .register h2,
+    .register h3,
+    .register input,
+    .register button
+    {
+        margin-left: 25px!important;
+    } */
+}
+
+@media (max-width: 500px) {
+    .register input
+    {
+        width: 150px!important;
+    }
+    .register button{
+        width: 172px!important
+    }
+    .register h2,
+    .register h3,
+    .register div p{
+        width: 172px;
+    }
+    .register h2{
+        font-size:24px;
+    }
+    .register h3{
+        font-size:15px!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .register h3{
+        font-size: 16px;
+    }
+    .register h2,
+    .register h3,
+    .register input,
+    .register button
+    {
+        /* margin-left: 18px!important; */
+    }
+    .register div p{
+        /* margin-left: 18px!important; */
+    }
+    .register input
+    {
+        width: 120px!important;
+    }
+    .register button{
+        width: 142px!important
+    }
+    .register h2,
+    .register h3,
+    .register div p{
+        width: 142px;
+    }
+    .register h2{
+        font-size:20px;
+    }
+}

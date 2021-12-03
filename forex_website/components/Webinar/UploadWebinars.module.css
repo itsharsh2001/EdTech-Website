@@ -1,0 +1,224 @@
+.box{
+    position: fixed;
+    top: 30vh;
+    bottom: 15vh;
+    left: 5vw;
+    right: 5vw;
+    width: 90vw;
+    height: 55vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #424242 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 50px #000000;
+    /* margin-top: 40px; */
+    border-radius: 12px;
+}
+
+.icontextButton{
+    align-items: center;
+    display: flex;
+    background: #7e7e7e 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    width: 60%;
+    height: 40px;
+    margin:auto;
+    margin-top: 10px;  
+    color: white;
+}
+
+.icontextButton p{
+    flex:0.99;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    justify-content: center;
+    margin-right: 2%;
+
+}
+
+.div2{
+    /* flex:0.4; */
+    width: 45%;
+    height: 90%;
+    justify-content: center;
+    /* margin-top: 55px; */
+    margin-left: 2%;
+}
+
+
+.select{
+    width: 60%;
+    outline:none;
+    border-radius: 15px;
+    height:40px;
+    color: white;
+    font-size: 16px;
+    background: #7e7e7e 0% 0% no-repeat padding-box;
+    font-weight: 500;
+    font-family: product sans;
+    padding-left:20px;
+    display:block;
+    margin: auto;
+}
+
+.select *
+{
+    background: #E6E6E6 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    /* width: 50px; */
+    color: black;
+}
+
+.select * :active,
+.select * :hover{
+    color: white;
+}
+
+.div2 h2{
+    width: 100%;
+    /* max-width: 100%; */
+    height: 50px;
+    max-height: 50px;
+    background: linear-gradient(90deg, #2a2a2a 0%,#383838 70%, #797979 100%);
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+    .textafterupload{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    }
+
+
+.div1 input{
+    width: 100%;
+    /* max-width: 100%; */
+    height: 50px;
+    max-height: 50px;
+    background: #7e7e7e 0% 0% no-repeat padding-box;
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+}
+
+.div1 input::placeholder{
+    color: white;
+}
+
+.div1 textarea{
+    width: 100%;
+    height: 85%;
+    background: #7e7e7e 0% 0% no-repeat padding-box;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Product sans;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border:none;
+    outline:none;
+    opacity: 1;
+    margin-top: 10px;
+    color: white;
+}
+
+.div1 textarea::placeholder{
+    color: white;
+}
+
+.div2 button{
+    /* padding-top: 14px;
+    padding-bottom: 14px; */
+    width: 60%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    /* position:relative; */
+    font-family: Product Sans;
+    background-color:white;
+    border-radius: 15px;
+    outline:none;
+    border:none;
+    display: block;
+    margin:auto;
+    margin-top: 20px;  
+    /* z-index:32; */
+    color:black;
+    opacity:1
+}
+
+
+
+@media (max-width:900px) {
+    .box{
+        /* grid-template-columns: 100%;
+        grid-template-rows: 50% 50%; */
+        display: flex;
+        flex-direction: column;
+
+        top: 5vh;
+        bottom: 5vh;
+        height: 90vh;
+        z-index: 550;
+        padding-top: 50px;
+        /* overflow: scroll; */
+        /* scroll-behavior: smooth; */
+    }
+    .div2 button{
+        width: 90%;
+    }
+    .icontextButton{
+        width: 90%;
+    }
+    .icontextButton p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 512px) {
+    .icontextButton p{
+        font-size: 13px;
+    }
+    .textafterupload{
+        font-size: 17px;
+    }
+}
+@media (max-width:460px) {
+    /* .box{
+        padding-top: 50px;
+    } */
+    .div2 button{
+        width: 100%;
+    }
+    .icontextButton{
+        width: 100%;
+    }
+    .div1,
+    .div2{
+        width: 75%;
+    }
+}

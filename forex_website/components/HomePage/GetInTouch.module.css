@@ -1,0 +1,242 @@
+.getintouch{
+    display: flex;
+    width: 100%;
+    background: #2e2e2e;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.getintouch h1{
+    text-align: center;
+    font: normal normal normal 35px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: block;
+    /* width: 30%; */
+    width: 400px;
+}
+
+.getintouch form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 30%; */
+    width: 500px;
+}
+
+.getintouch form input{
+    background: #767676 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029;
+    font-family: Product Sans;
+    border-radius: 15px;
+    opacity: 1;
+    color: white;
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.getintouch form input::placeholder{
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: Product Sans;
+}
+
+.getintouch form p{
+    text-align: center;
+    font: normal normal normal 16px Product Sans;  
+    letter-spacing: -0.05px;
+    color: #757575;
+    opacity: 1;
+    width: 80%;
+}
+
+.getintouch form textarea{
+    display: block;
+    width: 80%;
+    height: 300px;
+    background: #767676 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 20px;
+    color: white;
+    font-family: Product Sans;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.getintouch form textarea::placeholder{
+    color: #aaaaaa;
+    font: normal normal normal 18px Product Sans;  
+}
+
+.getintouch form button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: Product Sans;
+    color: black;
+    font-weight: 500;
+    width: 88%;
+    height: 40px;
+    font-size: 18px;
+    /* padding-right: 20px; */
+    /* padding-left: 20px; */
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.getintouch hr{
+    width: 90%;
+    /* border: 3px solid #686868; */
+    display: block;
+    margin: auto;
+    height: 3px;
+    background-color: #686868;
+    opacity: 1;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 1000px) {
+    .getintouch{
+        margin-bottom: 20px;
+    }
+    .getintouch form{
+        width: 450px;
+    }
+}
+@media (max-width: 800px) {
+    .getintouch{
+        margin-bottom: 20px;
+    }
+    .getintouch form{
+        width: 400px;
+    }
+    .getintouch h1{
+        font-size: 30px;
+    }
+    .getintouch form input{
+        font-size: 15px;
+    }
+    .getintouch form input::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form p{
+        font: normal normal normal 14px Product Sans;  
+    }
+    .getintouch form textarea{
+        font-size: 15px;
+    }
+    .getintouch form textarea::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form button{
+        font-size: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .getintouch{
+        margin-bottom: 20px;
+    }
+    .getintouch form{
+        width: 350px;
+    }
+    .getintouch h1{
+        font-size: 25px;
+    }
+    .getintouch form input{
+        font-size: 15px;
+    }
+    .getintouch form input::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form p{
+        font: normal normal normal 14px Product Sans;  
+    }
+    .getintouch form textarea{
+        font-size: 15px;
+    }
+    .getintouch form textarea::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form button{
+        font-size: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .getintouch{
+        margin-bottom: 20px;
+    }
+    .getintouch form{
+        width: 300px;
+    }
+    .getintouch h1{
+        font-size: 25px;
+        width: 300px;
+    }
+    .getintouch form input{
+        font-size: 15px;
+    }
+    .getintouch form input::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form p{
+        font: normal normal normal 14px Product Sans;  
+    }
+    .getintouch form textarea{
+        font-size: 15px;
+    }
+    .getintouch form textarea::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form button{
+        font-size: 15px;
+    }
+}
+@media (max-width: 350px) {
+    .getintouch{
+        margin-bottom: 20px;
+    }
+    .getintouch form{
+        width: 280px;
+    }
+    .getintouch h1{
+        font-size: 25px;
+    }
+    .getintouch form input{
+        font-size: 15px;
+    }
+    .getintouch form input::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form p{
+        font: normal normal normal 14px Product Sans;  
+    }
+    .getintouch form textarea{
+        font-size: 15px;
+    }
+    .getintouch form textarea::placeholder{
+        font-size: 15px;
+    }
+    .getintouch form button{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    .getintouch h1{
+        width: 280px;
+    }
+}

@@ -1,0 +1,28 @@
+.content img{
+    width:100%;
+}
+
+.image1{
+    margin-top: -50px;
+    margin-bottom:10px;
+}
+
+.image2{
+
+    margin-bottom:10px;
+
+}
+
+.image3{
+
+    margin-bottom:10px;
+    
+}
+
+
+@media(max-width:401px){
+    .image1{
+        margin-top: 0px;
+    }
+    
+}

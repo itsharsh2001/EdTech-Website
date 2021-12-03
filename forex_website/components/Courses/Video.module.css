@@ -1,0 +1,130 @@
+.body h1{
+    text-align: center;
+    color: white;
+    font-family: Product Sans;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.body{
+    width:100%;
+    min-height: 100vh;
+}
+
+.body img{
+    width: 43vw;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 20px;
+
+}
+
+.body p{
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.body button{
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 210px;
+    padding-right: 210px;
+    border: none;
+    border-radius: 10px;
+    font-family: Product Sans;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #707070;
+}
+
+.body video{
+    display:block;
+    margin: auto;
+    border-radius: 20px;
+    width:800px
+}
+
+
+@media(max-width:992px){
+    .body p{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media(max-width:900px){
+    .body video{
+        width:90vw;
+    }
+
+    .body h1{
+        font-size: 40px;
+    
+    }
+
+    .body button{
+       width:90vw;
+       padding-left: 0px;
+       padding-right: 0px;
+    }
+}
+
+@media(max-width:700px){
+    .body h1{
+        font-size: 30px;
+    }
+
+    .body button{
+       width:90vw;
+       padding-left: 0px;
+       padding-right: 0px;
+    }
+}
+
+@media(max-width:500px){
+    .body h1{
+        font-size: 25px;
+    }
+
+    .body button{
+       width:80vw;
+       padding-left: 0px;
+       padding-right: 0px;
+    }
+    .body p{
+        margin-right: 20px;
+        margin-left: 20px;
+        word-wrap: break-word;
+    }
+}
+
+@media(max-width:350px){
+    .body h1{
+        font-size: 20px;
+    }
+
+    .body button{
+       width:70vw;
+       padding-left: 0px;
+       padding-right: 0px;
+       font-size: 15px;
+    }
+    .body p{
+        margin-right: 20px;
+        margin-left: 20px;
+        word-wrap: break-word;
+    }
+}
+

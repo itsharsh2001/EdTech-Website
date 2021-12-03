@@ -1,0 +1,364 @@
+.hereyouare{
+    flex: 0.4;
+    /* padding-top: 25px; */
+    height:90%!important;
+    max-height: 90%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin: 6.5% 0%!important; */
+    border-left: 2px solid #ffffff;
+}
+
+.hereyouare h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+    /* margin: 0; */
+    margin: auto;
+    width: 264px;
+    text-align:left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.hereyouare h3{
+    font-size: 18px;
+    font-weight: normal;
+color: #FFFFFF;
+/* margin-left: 50px; */
+display: block;
+margin: auto;
+text-align: left;
+width:264px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.hereyouare button{
+    margin: auto;
+    display: block;
+    /* margin-left: -20px; */
+    font-family: Product Sans;
+    /* margin-top: 20px; */
+    margin-bottom: 0;
+}
+
+.hereyouare input{
+    display:block;
+    margin: auto;
+    /* margin-left: -20px; */
+    font-family: Product Sans;
+    margin-bottom: 20px;
+}
+
+.hereyouare h2,
+.hereyouare h3
+{
+    /* margin-left: -20px!important; */
+}
+
+.hereyouare p{
+    color: white;
+    font-size: 14px;
+    display:block;
+    margin: auto;
+    width:264px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    /* margin-left: -20px;  */
+    /* text-align: center; */
+}
+
+.lowerp{
+    /* margin-left: -20px;  */
+    color: #707070!important;
+    font-size: 13px;
+    margin-top: 10px!important;
+    display: block;
+    margin: auto;
+    width: 268px;
+    /* padding-right: 40px!important; */
+}
+
+.closeicon{
+    fill: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.closeicon:hover,
+.closeicon:active{
+    opacity: 0.6;
+}
+
+.hereyouare div{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hereyouare div input{
+    display: block;
+    font-family: Product Sans;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.hereyouare button{
+    font-family: Product Sans;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+
+@media (max-width:1310px) {
+    .hereyouare{
+        flex: 0.5!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hereyouare div input{
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 40px!important;
+    }
+    .hereyouare div button{
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 40px!important;
+    }
+
+    
+.hereyouare h3{
+    
+width:252px;
+
+}
+
+.hereyouare h2{
+    
+    width: 252px;
+    
+}
+.hereyouare p{
+    width:250px;
+}
+
+.lowerp{
+    width: 250px;
+}
+}
+
+@media (max-width: 1190px) {
+    .hereyouare button{
+        /* font-size: 15px; */
+    }
+}
+@media (max-width: 1120px) {
+    .hereyouare{
+        /* margin: 12% 0%!important; */
+    }
+}
+@media (max-width: 1090px) {
+    .hereyouare button{
+        width: 230px;
+        /* margin-bottom: 10px; */
+    }
+    
+     
+.hereyouare h3{
+    
+    width:230px;
+    
+    }
+    
+    .hereyouare h2{
+        
+        width: 230px;
+        
+    }
+    .hereyouare a{
+        width: 230px;
+    }
+    .hereyouare section span:nth-child(1){
+        height: 40px;
+        width: 40px;
+    }
+    .hereyouare section span:nth-child(2){
+        height: 40px;
+        width: 40px;
+    }
+    .hereyouare section span:nth-child(3){
+        height: 40px;
+        width: 40px;
+    }
+    .hereyouare section span:nth-child(4){
+        height: 40px;
+        width: 40px;
+    }
+    .hereyouare p{
+        width:228px;
+    }
+    
+    .lowerp{
+        width: 228px;
+    }
+}
+
+@media (max-width: 800px) {
+    .hereyouare{
+        display: block;
+        position: static;
+        flex: 0.4!important;
+        padding-top: 0;
+        margin-top: 80px;
+        padding-bottom: 50px;
+        /* margin-left: 76px!important; */
+        /* margin-right: 17px; */
+        height: 300px;
+        max-height: 300px;
+        border-left: 0;
+        border-top: 2px solid #ffffff;
+    }
+    .hereyouare input,
+    .hereyouare button,
+    .hereyouare h2,
+    .hereyouare h3
+    {
+        margin-top: 20px!important;
+        font-family: Product Sans;
+    }
+
+    .hereyouare button{
+        width: 230px;
+        height: 32px;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lowerh2{
+        opacity: 0;
+    }
+    .lowerh3{
+        opacity: 0;
+    }
+    .hereyouare section span{
+        opacity: 0;
+    }
+    .hereyouare p{
+        display: block;
+        margin-left: 0!important;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .lowerp{
+        /* width: 228px; */
+    }
+}
+
+@media (max-width: 680px) {
+    .hereyouare{
+        /* margin-left: 60px; */
+        /* margin-right: 17px; */
+    }
+    .hereyouare button{
+        width: 210px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .hereyouare h3{
+        width: 210px;
+     }
+     .hereyouare h3{
+        /* font-size:23px; */
+    }
+     .hereyouare h2{
+         width: 210px;
+         font-size: 28px;
+         /* margin-top: 30px; */
+         /* width: 90%!important; */
+     }
+     .hereyouare a{
+         width:210px;
+     }
+}
+
+@media (max-width: 620px) {
+    .button{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hereyouare{
+        margin: auto!important;
+        /* margin-top: 40px; */
+    }
+}
+
+@media (max-width: 500px) {
+    .hereyouare input
+     {
+        width: 150px!important;
+    }
+    .hereyouare button{
+        width: 172px!important
+    }
+    .hereyouare h2,
+    .hereyouare h3,
+    .hereyouare a,
+    .hereyouare p{
+        width: 172px;
+    }
+    .hereyouare h2{
+        font-size:24px;
+    }
+    .hereyouare h3{
+        font-size:17px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hereyouare input
+     {
+        width: 120px!important;
+    }
+    .hereyouare button{
+        width: 142px!important;
+        font-size: 13px;
+    }
+    .hereyouare h2,
+    .hereyouare h3,
+    .hereyouare a,
+    .hereyouare p{
+        width: 142px;
+    }
+    .hereyouare h2{
+        font-size:20px;
+    }
+    .hereyouare h3{
+        font-size:14px;
+    }
+}

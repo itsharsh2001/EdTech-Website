@@ -1,0 +1,56 @@
+.inputfield input{
+    background-color: #707070;
+    color: white;
+    border: 2px solid #707070;
+    outline: none;
+    border-radius: 10px;
+    width: 246px;
+    height: 36px;
+    margin-top: 12px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+
+.inputfield input::placeholder{ 
+    color: #aaaaaa;
+    opacity: 1; 
+  }
+
+@media (max-width: 1200px) {
+    .inputfield input{
+        width: 226px;
+    height: 30px;
+    }
+}
+@media (max-width: 1090px) {
+    .inputfield input{
+        width: 206px;
+    height: 26px;
+    }
+}
+
+@media (max-width: 680px) {
+    .inputfield input{
+        width: 186px;
+    height: 20px;
+    border-radius: 5px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .inputfield input{
+        width: 166px;
+    }
+}

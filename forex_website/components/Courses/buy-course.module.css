@@ -1,0 +1,139 @@
+.image{
+width: 540px;
+height: 270px;
+/* background: transparent linear-gradient(118deg, #FFA2A2 0%, #9B9BFF 100%) 0% 0% no-repeat padding-box; */
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+margin-top: 40px;
+border-radius: 10px;
+}
+
+.boxUnderImage{
+    width: 540px;
+    height: 270px;
+}
+
+.body{
+    display: block;
+    background-color: #2e2e2e;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.body h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.body h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.body p{
+    text-align: center;
+    color: white;
+    font-family: Product Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.body button{
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    background-color:white;
+    display:block;
+    margin: auto;
+    outline: none;
+    border:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 170px;
+    padding-left: 170px;
+    border-radius: 8px;
+    font-family: Product Sans;
+}
+
+
+@media(max-width: 672px){
+
+    .image{
+        width: 80vw;
+        height:40vw;
+    }
+
+    .boxUnderImage{
+        width: 80vw;
+        height:40vw;
+    }
+
+        .body button{
+            width:80vw;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+
+}
+
+
+@media(max-width:558px){
+    .body h1{
+        font-size: 22px;
+    }
+    
+    .body p{
+        font-size: 15px;
+    }
+
+    .body button{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:424px){
+
+    .body h1{
+        font-size: 20px;
+    }
+    
+    .body p{
+        font-size: 13px;
+    }
+
+    .body button{
+        font-size: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+@media(max-width:350px){
+
+    .body h1{
+        font-size: 19px;
+    }
+    
+    .body p{
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+        word-wrap: break-word;
+    }
+
+    .body button{
+        font-size: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,233 @@
+.start{
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: #2e2e2e;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.start img{
+    display: block;
+    width: 60vw;
+    height: 400px;
+    margin: auto;
+    /* margin-top: 30px; *//*baad mein apply krna*/
+}
+
+.start form{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.start form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.start textarea{
+    /* width: 102%; */
+    font-size: 23px;
+    color: white;
+    
+}
+
+
+.icontextButton{
+    align-items: center;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;  
+    border-radius: 14px;
+   margin:auto;
+   margin-top: 20px;
+   background-color: #797979;
+   width: 100%;
+   /* color: #767676!important; */
+}
+
+.icontextButton p{
+    flex:0.9;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px!important;
+}
+
+.meetLink{
+    border: none;
+    outline: none;
+    display: block;
+    width: 98%;
+    padding-left: 20px;
+    background: #797979 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 34px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 24px Product Sans;
+    letter-spacing: 0px;
+    color: #C5C5C5;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.start form div>input{
+    /* margin: 0!important; */
+    /* padding: 0!important; */
+    border: none;
+    outline: none;
+    display: block;
+    width: 47.5%;
+    padding-left: 20px;
+    background: #797979 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 34px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 24px Product Sans;
+    letter-spacing: 0px;
+    color: #C5C5C5;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px); */
+}
+
+.start form input::placeholder{
+    color: #C5C5C5;
+}
+.start form textarea{
+    display: block;
+    width: 96.5%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 20px!important;
+    
+    border: none;
+    outline: none;
+    background: #797979 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #C5C5C5;
+/* backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(30px); */
+}
+
+.start button{
+    width: 30%;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    height: 34px;
+    margin-top: 15px;
+    font: normal normal normal 23px Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.start hr{
+    border: none;
+    outline: none;
+    background:  #707070;
+    height: 4px;
+opacity: 1;
+display: block;
+margin: auto;
+width: 20%;
+margin-top: 40px;
+}
+
+.icon{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1145px) {
+    .meetLink{   
+        width: 98.4%;
+        font-size: 20px;
+    }
+    .icontextButton p{
+        font-size: 19px!important;
+    }
+    .start form textarea{
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 868px) {
+    .meetLink{   
+        width: 98.9%;
+        font-size: 18px;
+    }
+    .icontextButton p{
+        font-size: 17px!important;
+    }
+    .start button{
+        width: 50%;
+    }
+    .start form textarea{
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .meetLink{   
+        width: 93%;
+    }
+    .start form textarea{
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .meetLink{   
+        width: 93.8%;
+    }
+    .start button{
+        width: 70%;
+    }
+    .start form textarea{
+        font-size: 19px;
+    }
+}
+@media (max-width: 440px) {
+    .meetLink{   
+        width: 94.5%;
+    }
+}
+@media (max-width: 370px) {
+    .meetLink{   
+        width: 93.7%;
+    }
+    .start form textarea{
+        width: 88%;
+    }
+    .icontextButton p{
+        font-size: 16px!important;
+    }
+    .start button{
+        width: 85%;
+    }
+}
+@media (max-width: 335px) {
+    /* .meetLink{   
+        width: 91.8%;
+    } */
+    .start button{
+        width: 90%;
+    }
+}

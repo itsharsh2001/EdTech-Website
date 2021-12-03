@@ -1,0 +1,87 @@
+.managehomepage{
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    background: #2e2e2e;
+}
+
+.box{
+    display: grid;
+    /* grid-template-columns: 500px 500px 500px; */
+    grid-template-columns: 33vw 33vw 33vw;
+    margin-top: 40px;
+    justify-content: center;
+}
+/* .home{
+    width:100vw;
+    overflow-x: hidden;
+} */
+
+.managehomepage h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.managehomepage h4{
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .h1{
+        font-size: 35px;
+    }
+    
+    .h4{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .box{
+        grid-template-columns: 50vw 50vw;
+    }
+}
+@media (max-width: 750px) {
+    .h1{
+        font-size: 32px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+}
+@media (max-width: 650px) {
+    .box{
+        grid-template-columns: 100vw;
+    }
+}
+@media (max-width: 450px) {
+    .h1{
+        font-size: 27px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+}
+@media (max-width: 350px) {
+    .h1{
+        font-size: 25px;
+    }
+    
+    .h4{
+        font-size: 14px;
+    }
+}

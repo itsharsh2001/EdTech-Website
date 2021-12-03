@@ -1,0 +1,220 @@
+.box{
+    width: 600px;
+    height:500px;
+    background: #606060 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #000000;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 16vh;
+    
+}
+
+.box section{
+    display: block;
+    width: 100%;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: right;
+}
+
+.select{
+    width: 35vw;
+    outline:none;
+    background-color: #767676;
+    color: white;
+    border-radius: 14px;
+    height:50px;
+    font-weight: 500;
+    font-family: product sans;
+    padding-left:10px;
+    display:block;
+    margin: auto;
+    margin-bottom:10px ;
+}
+
+.box button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width:220px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Product Sans;
+    background-color:white;
+    border-radius: 10px;
+    outline:none;
+    border: none;
+    z-index:32;
+    color:black;
+    opacity:1;
+    display: block;
+    margin:auto;
+    }
+
+.box h2{
+    color:white;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.switch{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 34px;
+}
+
+.switchIcon{
+    align-self: center;
+}
+
+.switch p{
+    color:white;
+}
+
+
+/* .box input::before{
+    content:'';
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:white;
+    border-radius: 14px;
+    opacity:0.3;
+} */
+
+.box input{
+    display:block;
+    background:none;
+    margin: auto;
+    width:34vw;
+    height: 40px;
+    outline:none;
+    border:none;
+    color: white;
+    background-color:#767676;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    /* position:relative;
+    opacity:1;
+    z-index: 11; */
+}
+
+.box input::placeholder{
+    color: white;
+}
+
+.box textarea{
+    display:block;
+    background:none;
+    margin: auto;
+    width:34vw;
+    height: 160px;
+    outline:none;
+    border:none;
+    color: white;
+    background-color:#767676;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Product sans;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.box textarea::placeholder{
+    color: white;
+}
+
+
+@media (max-width:700px) {
+    .box{
+        width: 500px;
+        height:500px;        
+        margin-top: 100px;
+    }
+    .box input{
+        width:44vw;
+    }
+    .box textarea{
+        width:44vw;
+    }
+    .box select{
+        width: 46vw;
+    }
+}
+@media (max-width:550px) {
+    .box{
+        width: 400px;
+        height:450px;        
+        margin-top: 100px;
+    }
+    .box input{
+        width:44vw;
+        height: 32px;
+    }
+    .box textarea{
+        width:44vw;
+        height: 100px;
+    }
+    .box button{
+        width:40vw;
+    }
+}
+@media (max-width:450px) {
+    .box{
+        width: 300px;
+        height:450px;        
+        margin-top: 120px;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    .box input{
+        width:54vw;
+        height: 30px;
+    }
+    .box textarea{
+        width:54vw;
+        height: 120px;
+    }
+    .box select{
+        width: 58vw;
+    }
+    .box button{
+        width:38vw;
+    }
+}
+@media (max-width:350px) {
+    .box{
+        width: 250px;
+        height:450px;        
+        margin-top: 120px;
+    }
+    .box h2{
+        font-size: 18px;
+    }
+    .box input{
+        width:60vw;
+        height: 26px;
+    }
+    .box textarea{
+        width:60vw;
+        height: 120px;
+    }
+    .box select{
+        width: 64vw;
+    }
+    .box button{
+        width:40vw;
+    }
+}

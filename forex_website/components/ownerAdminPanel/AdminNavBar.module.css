@@ -1,0 +1,278 @@
+.nav{
+    top: 0;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+    width: 100%;
+    overflow: hidden;
+    /* height: 70px; */
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    color: white;
+    /* background: transparent; */
+}
+
+.nav section h5{
+    text-align: left;
+font: normal normal bold 25px Product Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+display: block;
+margin-bottom: 0;
+margin-top: 10px;
+margin-left: 10px;
+}
+.nav section p{
+    text-align: left;
+font: normal normal bold 19px Product Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+display: block;
+margin-top: 0;
+margin-left: 10px;
+}
+
+.nav span{
+    /* flex: 0.2; */
+    background: url('../../assets/Aboota-Logo-white.png') no-repeat center center/contain;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 115px;
+    cursor: pointer;
+    /* margin-left: 30px; */
+ }
+/*
+.nav ul{ 
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    height: 100%;
+    
+}
+
+.nav ul li{
+    text-align: center;
+    font: normal normal normal 22px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.5s;
+    
+}
+
+.nav ul li a:hover,
+.nav ul li a:active{
+    color: rgb(219, 219, 219);
+} */
+
+/* .litlibackground{
+
+} */
+
+.nav button{
+    flex: 0.2;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 268px;
+    max-width: 268px;
+    height: 40px;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    flex: 0.2;
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+
+.nav button:hover,
+.nav button:active{
+    color: #ffffff;
+    background-color: #707070;
+}
+
+@media (max-width:1280px) {
+    .nav ul li{
+        width: 150px;
+        font-size: 20px;
+    }
+    .nav button{
+        margin-left: 30px;
+        font-size: 14px;
+        flex: 0.3;
+    }
+
+}
+@media (max-width:1020px) {
+    .nav ul li{
+        width: 100px;
+        font-size: 18px;
+    }
+
+    .nav section p{
+        font-size: 16px;
+    }
+    .nav section h5{
+        font-size: 20px;
+    }
+    .nav button{
+        margin-left: 30px;
+        font-size: 14px;
+        flex: 0.3;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 45px;
+        width: 90px;
+        /* flex: 0.1; */
+    }
+    .nav ul{
+        margin-left: -20px;
+    }
+}
+
+/* @media (max-width: 800px) {
+    .nav{
+        display: none;
+    }
+} */
+
+@media (max-width:870px) {
+    .nav button{
+        flex: 0.4;
+    }
+}
+
+@media (max-width:800px) {
+    .nav section p{
+        font-size: 15px;
+    }
+    .nav section h5{
+        font-size: 19px;
+    }
+}
+@media (max-width:650px) {
+    .nav section p{
+        font-size: 14px;
+    }
+    .nav section h5{
+        font-size: 18px;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 40px;
+        width: 80px;
+        /* flex: 0.1; */
+    }
+    .nav button{
+        flex: 0.5;
+    }
+}
+@media (max-width:500px) {
+    .nav section p{
+        font-size: 11px;
+    }
+    .nav section h5{
+        font-size: 15px;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 35px;
+        width: 70px;
+        /* flex: 0.1; */
+    }
+    .nav button{
+        flex: 0.6;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+@media (max-width:430px) {
+    .nav section p{
+        font-size: 10px;
+    }
+    .nav section h5{
+        font-size: 14px;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 30px;
+        width: 60px;
+        /* flex: 0.1; */
+    }
+    .nav button{
+        flex: 0.7;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+@media (max-width:370px) {
+    .nav section p{
+        font-size: 9px;
+    }
+    .nav section h5{
+        font-size: 13px;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 30px;
+        width: 60px;
+        /* flex: 0.1; */
+    }
+    .nav button{
+        flex: 0.8;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+@media (max-width:330px) {
+    .nav section p{
+        font-size: 8px;
+    }
+    .nav section h5{
+        font-size: 12px;
+    }
+    .nav span{
+        /* padding-top: 10px; */
+        height: 25px;
+        width: 50px;
+        /* flex: 0.1; */
+    }
+    .nav button{
+        flex: 0.9;
+        font-size: 13px;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,483 @@
+.signin {
+  flex: 0.4;
+  /* padding-top: 25px; */
+  height: 90% !important;
+  max-height: 90% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* margin: 6.5% 0%!important; */
+  border-left: 2px solid #ffffff;
+}
+
+.signin h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  /* margin-left: 50px; */
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 264px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.signin h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  display: block;
+  /* margin: 0; */
+  margin: auto;
+  width: 264px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.signin section {
+  display: flex;
+  margin-top: 15px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.signin section span:nth-child(1) {
+  background: url("../../assets/google-logo-circle.png") no-repeat center
+    center/cover;
+  display: block;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  margin-left: -20px;
+}
+.signin section span:nth-child(1):hover {
+  opacity: 0.6;
+}
+.signin section span:nth-child(2) {
+  background: url("../../assets/fb-logo-circle.png") no-repeat center
+    center/cover;
+  display: block;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+.signin section span:nth-child(2):hover {
+  opacity: 0.6;
+}
+.signin section span:nth-child(3) {
+  background: url("../../assets/mobile-logo-circle.png") no-repeat center
+    center/cover;
+  display: block;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+.signin section span:nth-child(3):hover {
+  opacity: 0.6;
+}
+
+.signin section span:nth-child(4) {
+  background: url("../../assets/mobile-logo-circle.png") no-repeat center
+    center/cover;
+  display: block;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all ease 0.5s;
+  opacity: 0;
+  z-index: -1000;
+}
+
+.signin input,
+.signin button,
+.signin h2,
+.signin h3 {
+  /* margin-left: -20px!important; */
+  font-family: Product Sans;
+}
+
+.lowerh2 {
+  /* margin-top: 40px!important; */
+}
+.lowerh3 {
+  margin-top: -20px;
+}
+
+.signin a {
+  color: #0099ff;
+  text-decoration: none;
+  font-size: 14px;
+  /* margin-left: -20px; */
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  width: 270px;
+  /* margin-top: 10px!important; */
+  /* margin-bottom: 10px; */
+}
+
+.signin button {
+  font-family: Product Sans;
+  /* width: 130px; */
+  /* margin-bottom: 10px; */
+}
+
+.button {
+  font-family: Product Sans;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-self: baseline; */
+}
+.button p {
+  color: #a6a6a6;
+  font-size: 14px;
+
+  /* width: 250px; */
+  /* margin-top: 24px;  */
+  /* margin-left: 15px;  */
+  /* text-align: center; */
+}
+
+.closeicon {
+  fill: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.closeicon:hover,
+.closeicon:active {
+  opacity: 0.6;
+}
+
+.link span {
+  color: #0099ff !important;
+  text-decoration: none !important;
+}
+
+.link span:active,
+.link span:hover,
+.link span:visited {
+  color: #0099ff !important;
+}
+
+.signin div {
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.signin div input {
+  display: block;
+  margin: auto;
+  font-family: Product Sans;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.signin button {
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  font-family: Product Sans;
+  margin-bottom: 0;
+}
+
+.red {
+  border-color: red;
+}
+
+.green {
+  border-color: lawngreen;
+}
+
+@media (max-width: 1310px) {
+  .signin {
+    flex: 0.5 !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .signin div input {
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 40px !important;
+  }
+  .signin div button {
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 40px !important;
+  }
+
+  .signin h3 {
+    width: 252px;
+  }
+
+  .signin h2 {
+    width: 252px;
+  }
+  .signin a {
+    width: 252px;
+  }
+}
+@media (max-width: 1090px) {
+  .signin button {
+    width: 230px;
+    /* margin-bottom: 10px; */
+  }
+
+  .signin h3 {
+    width: 230px;
+  }
+
+  .signin h2 {
+    width: 230px;
+  }
+  .signin a {
+    width: 230px;
+  }
+  .signin section span:nth-child(1) {
+    height: 40px;
+    width: 40px;
+  }
+  .signin section span:nth-child(2) {
+    height: 40px;
+    width: 40px;
+  }
+  .signin section span:nth-child(3) {
+    height: 40px;
+    width: 40px;
+  }
+  .signin section span:nth-child(4) {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .signin {
+    display: block;
+    position: static;
+    flex: 0.4 !important;
+    padding-top: 30px;
+    margin-top: 80px;
+    /* padding-bottom: 50px; */
+    /* margin-left: 76px!important; */
+    /* margin-right: 17px; */
+    height: 300px;
+    max-height: 300px;
+    border-left: 0;
+    border-top: 2px solid #ffffff;
+  }
+  .signin input,
+  .signin button,
+  .signin h2,
+  .signin h3 {
+    margin-top: 20px !important;
+    font-family: Product Sans;
+  }
+
+  .signin button {
+    width: 230px;
+    height: 32px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lowerh2 {
+    /* opacity: 0; */
+    /* display: none; */
+  }
+  .lowerh3 {
+    /* opacity: 0; */
+    /* display: none; */
+  }
+  .signin section{
+      width: 235px;
+  }
+  .signin section span {
+      display:block;
+      margin: auto;
+      margin-top:20px;
+      margin-bottom:60px;
+      margin-left: 0px!important;
+      margin-right: 15px;
+      padding-top: -5px;
+
+  }
+  .signin section span:nth-child(4){
+      display: none;
+  }
+  .signin p {
+    display: block;
+    margin-left: 0 !important;
+    width: 200px;
+  }
+}
+
+@media (max-width: 680px) {
+  .signin {
+    /* margin-left: 60px; */
+    /* margin-right: 17px; */
+  }
+  .signin button {
+    width: 210px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .signin h3 {
+    width: 210px;
+  }
+  .signin h3 {
+    /* font-size:23px; */
+  }
+  .signin h2 {
+    width: 210px;
+    font-size: 28px;
+    /* margin-top: 30px; */
+    /* width: 90%!important; */
+  }
+  .signin a {
+    width: 210px;
+  }
+  .signin section{
+    width: 215px;
+}
+.signin section span {
+    display:block;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:60px;
+    margin-left: 0px!important;
+    margin-right: 15px;
+    padding-top: -5px;
+
+}
+}
+
+@media (max-width: 620px) {
+  .button {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .signin {
+    margin: auto !important;
+    /* margin-top: 40px; */
+  }
+  /* .signin h2,
+    .signin h3,
+    .signin input,
+    .signin button,
+    .signin a,
+    .signin p
+    {
+        margin-left: 10px!important;
+    } */
+
+  /* .signin p
+    {
+        margin-top: 0px!important;
+    } */
+}
+
+@media (max-width: 500px) {
+  .signin input {
+    width: 150px !important;
+  }
+  .signin button {
+    width: 172px !important;
+  }
+  .signin h2,
+  .signin h3,
+  .signin a,
+  .signin p {
+    width: 172px;
+  }
+  .signin h2 {
+    font-size: 24px;
+  }
+  .signin h3 {
+    font-size: 17px;
+  }
+  .signin section{
+    width: 175px;
+}
+.signin section span {
+    display:block;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:60px;
+    margin-left: 0px!important;
+    margin-right: 15px;
+    padding-top: -5px;
+
+}
+}
+
+@media (max-width: 400px) {
+  .signin button {
+    /* width: 190px; */
+  }
+  .signin h2,
+  .signin h3,
+  .signin input,
+  .signin button,
+  .signin a,
+  .signin p {
+    /* margin-left: 10px!important; */
+  }
+  .signin input {
+    width: 120px !important;
+  }
+  .signin button {
+    width: 142px !important;
+  }
+  .signin h2,
+  .signin h3,
+  .signin a,
+  .signin p {
+    width: 142px;
+  }
+  .signin h2 {
+    font-size: 20px;
+  }
+  .signin h3 {
+    font-size: 14px;
+  }
+
+  .signin section{
+    width: 150px;
+}
+.signin section span {
+    display:block;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:60px;
+    margin-left: 0px!important;
+    margin-right:10px;
+    padding-top: -5px;
+
+}
+}

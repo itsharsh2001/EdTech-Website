@@ -1,0 +1,36 @@
+.box{
+    /* width: 1440px; */
+    /* height: 540px; */
+    position: fixed;
+    top: 35vh;
+    bottom: 25vh;
+    left: 0vw;
+    right: 0vw;
+    width: 100vw;
+    height: 40vh;
+    /* display: grid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: 50% 50%; */
+    margin: auto;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /* box-shadow: 0px 0px 50px #000000; */
+    margin-top: 40px;
+    /* border-radius: 12px; */
+}
+
+.box h1{
+    text-align: center;
+font: normal normal normal 35px Product Sans;
+letter-spacing: 0px;
+opacity: 1;
+color: black;
+display: block;
+width: 90vw;
+margin: auto!important;
+}
+
+.box h1 span{
+    color: #0099FF!important;
+}

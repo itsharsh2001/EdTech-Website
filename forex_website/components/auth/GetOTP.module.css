@@ -1,0 +1,558 @@
+.getotp{
+    flex: 0.4;
+    height:90%!important;
+    max-height: 90%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin: 6.5% 0%!important; */
+    border-left: 2px solid #ffffff;
+}
+
+.getotp h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: block;
+    /* margin: 0; */
+    margin: auto;
+    width: 270px;
+    text-align:left;
+    margin-bottom: 0px;
+    margin-top: 0px;}
+
+.getotp h3{
+    font-size: 18px;
+    font-weight: normal;
+color: #FFFFFF;
+/* margin-left: 50px; */
+display: block;
+margin: auto;
+text-align: left;
+width:270px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.getotp div{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.getotp div input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Product Sans;
+    margin-bottom: 0;
+}
+
+.getotp button{
+    display: block;
+    font-family: Product Sans;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.getotp section{
+    display: flex;
+    margin-top: 15px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.getotp section span:nth-child(1){
+    background: url('../../assets/google-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin-left: -20px;
+}
+.getotp section span:nth-child(1):hover{
+    opacity: 0.6;
+}
+.getotp section span:nth-child(2){
+    background: url('../../assets/fb-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all ease 0.5s;
+}
+.getotp section span:nth-child(2):hover{
+    opacity: 0.6;
+}
+.getotp section span:nth-child(3){
+    background: url('../../assets/mobile-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    margin-left: 20px;
+    opacity: 0;
+    z-index: -1000;
+    transition: all ease 0.5s;
+}
+.getotp section span:nth-child(3):hover{
+    opacity: 0.6;
+}
+.getotp section span:nth-child(4){
+    background: url('../../assets/mobile-logo-circle.png') no-repeat center center/cover;
+    display: block;
+    height: 46px;
+    width: 46px;
+    margin-left: 20px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: -1000;
+    transition: all ease 0.5s;
+}
+/* .getotp section span:nth-child(4):hover{
+    opacity: 0.6;
+} */
+
+.getotp h2,
+.getotp h3
+{
+    /* margin-left: -20px!important; */
+}
+
+.getotp a{
+    color: #0099FF;
+    text-decoration: none;
+    font-size: 14px;
+    /* margin-left: -20px; */
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /* margin-top: 0; */
+    text-align:left;
+    width: 270px;
+}
+
+.getotp p{
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    /* margin-top: 30px;  */
+    /* margin-left: -20px;  */
+    /* text-align: center; */
+}
+
+.lowerp{
+    /* margin-left: -20px;  */
+    /* color: #707070; */
+    /* font-size: 13px; */
+    /* margin-top: 10px!important; */
+    /* margin: 0!important; */
+    display: block;
+    width: 270px;
+    margin: auto;
+    margin-top:10px;
+}
+
+.closeicon{
+    fill: #FFFFFF;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.closeicon:hover,
+.closeicon:active{
+    opacity: 0.6;
+}
+
+.red{
+    border-color: red;
+}
+
+.green{
+    border-color: lawngreen;
+}
+
+@media (max-width:1310px) {
+    .getotp{
+        flex: 0.5!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .getotp div input{
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 40px!important;
+        margin-bottom: 10px;
+    }
+    .getotp div button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+        height: 40px!important;
+
+    }
+    .lowerp{
+        width: 250px!important;
+    }
+
+    
+.getotp h3{
+    
+width:252px;
+
+}
+
+.getotp h2{
+    
+    width: 252px;
+    
+}
+.getotp a{
+    width: 252px;
+}
+}
+
+@media (max-width: 1170px) {
+    .getotp{
+        /* margin: 11% 0%!important; */
+    }
+}
+@media (max-width: 1090px) {
+    .getotp{
+        /* margin: 12% 0%!important; */
+    }
+}
+
+@media (max-width: 1090px) {
+    .getotp button{
+        width: 230px;
+        /* margin-bottom: 10px; */
+    }
+    .getotp h3{
+    
+        width:230px;
+        
+        }
+        
+        .getotp h2{
+            
+            width: 230px;
+            
+        }
+        .getotp a{
+            width: 230px;
+        }
+        .getotp section span:nth-child(1){
+            height: 40px;
+            width: 40px;
+        }
+        .getotp section span:nth-child(2){
+            height: 40px;
+            width: 40px;
+        }
+        .getotp section span:nth-child(3){
+            height: 40px;
+            width: 40px;
+        }
+        .getotp section span:nth-child(4){
+            height: 40px;
+            width: 40px;
+        }
+        .lowerp{
+            width: 230px!important;
+        }
+}     
+
+@media (max-width: 1000px) {
+    .getotp{
+        /* margin: 13% 0%!important; */
+    }
+}
+@media (max-width: 850px) {
+    .getotp{
+        /* margin: 14% 0%!important; */
+    }
+}
+
+@media (max-width: 800px) {
+    .getotp{
+        display: block;
+        position: static;
+        flex: 0.4!important;
+        padding-top: 80px!important;
+        margin-top: 80px;
+        /* padding-bottom: 50px; */
+        /* margin-left: 76px!important; */
+        /* margin-right: 17px; */
+        height: 300px;
+        max-height: 300px;
+        border-left: 0;
+        border-top: 2px solid #ffffff;
+    }
+    .getotp button{
+        width: 230px;
+        height: 32px;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lowerh2{
+        /* opacity: 0; */
+    }
+    .lowerh3{
+        /* opacity: 0; */
+    }
+    .getotp input,
+    .getotp button,
+    .getotp h2,
+    .getotp h3
+    {
+        margin-top: 20px!important;
+    }
+    .getotp section{
+        width: 235px;
+    }
+    .getotp section span{
+        display:block;
+        margin: auto;
+        margin-top:20px;
+        margin-bottom:60px;
+        margin-left: 0px!important;
+        margin-right: 15px;
+        padding-top: -5px;
+  
+    }
+    .getotp section span:nth-child(4){
+        display: none;
+    }
+    .getotp p{
+        display: block;
+        /* margin-left: 0px!important; */
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom:0;
+        width:228px;
+        /* margin-bottom: 20px; */
+    }
+    .lowerp{
+        /* margin-top: 30px!important;
+        margin-bottom: 20px; */
+        display: block;
+        margin: auto;
+        margin-top:0;
+        margin-bottom: 0;
+        width: 228px!important;;
+    }
+    .getotp h2{
+        /* padding-top:30px!important; */
+    }
+}
+
+
+@media (max-width: 680px) {
+    .getotp{
+        /* margin-left: 78px; */
+        /* margin-right: 17px; */
+    }
+    .getotp button{
+        width: 210px;
+        height: 30px;
+    }
+    .getotp h3{
+        width: 210px;
+     }
+     .getotp h2{
+        width: 210px;
+        font-size: 28px;
+        /* margin-top: 30px; */
+        /* width: 90%!important; */
+    }
+    .getotp a{
+        /* width: 190px!important; */
+    }
+    .getotp p{
+        /* width: 190px!important; */
+    }
+    .getotp section{
+        width: 215px;
+    }
+    .getotp section span{
+        display:block;
+        margin: auto;
+        margin-top:20px;
+        margin-bottom:60px;
+        margin-left: 0px!important;
+        margin-right: 15px;
+        padding-top: -5px;
+  
+    }
+
+    .getotp p{
+        display: block;
+        /* margin-left: 0px!important; */
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom:0;
+        width:208px;
+        /* margin-bottom: 20px; */
+    }
+    .lowerp{
+        /* margin-top: 30px!important;
+        margin-bottom: 20px; */
+        display: block;
+        margin: auto;
+        margin-top:0;
+        margin-bottom: 0;
+        width: 208px!important;;
+    }
+}
+
+@media (max-width: 620px) {
+    .getotp{
+        margin: auto!important;
+        /* padding-left: 12px; */
+    }
+    /* .getotp h2{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-left: 0!important;
+        text-align: center;
+        padding: 0!important;
+    }
+    .getotp p{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 0!important;
+    }
+    .getotp input{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .getotp button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
+
+@media (max-width: 500px) {
+    .getotp input
+     {
+        width: 150px!important;
+    }
+    .getotp button{
+        width: 172px!important
+    }
+    .getotp h2,
+    .getotp h3,
+    .getotp a,
+    .getotp p{
+        width: 172px;
+    }
+    .getotp h2{
+        font-size:24px;
+    }
+    .getotp h3{
+        font-size:17px;
+    }
+    .getotp a{
+        width: 173px!important;
+        margin: auto!important;
+        margin-top: 10px!important;
+    }
+    .getotp p{
+
+        width: 173px!important;
+        margin: auto!important;
+        margin-top: 10px!important;
+    }
+    .lowerp{
+        /* width: 150px!important */
+    }
+    .getotp section{
+        width: 180px;
+    }
+}
+
+@media (max-width: 400px) {
+    .getotp button{
+        /* width: 190px; */
+    }
+    .getotp h2,
+    .getotp h3,
+    .getotp input,
+    .getotp button,
+    .getotp a,
+    .getotp p
+    {
+        /* margin-left: 10px!important; */
+    }
+    .getotp input
+     {
+        width: 120px!important;
+    }
+    .getotp button{
+        width: 142px!important;
+        font-family: Product Sans;
+    }
+    .getotp h2,
+    .getotp h3,
+    .getotp a,
+    .getotp p{
+        width: 142px;
+    }
+    .getotp h2{
+        font-size:20px;
+    }
+    .getotp h3{
+        font-size:14px;
+    }
+
+    .getotp a{
+        width: 143px!important;
+        margin: auto!important;
+        margin-top: 10px!important;
+    }
+    .getotp p{
+
+        width: 143px!important;
+        margin: auto!important;
+        margin-top: 10px!important;
+    }
+    .getotp section{
+        width: 150px;
+    }
+    .getotp section span {
+        display:block;
+        margin: auto;
+        margin-top:20px;
+        margin-bottom:60px;
+        margin-left: 0px!important;
+        margin-right:10px;
+        padding-top: -5px;
+    
+    }
+}

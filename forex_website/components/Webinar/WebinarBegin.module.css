@@ -1,0 +1,32 @@
+.webinar{
+    background-color: #2E2E2E;
+    height: 100vh;
+}
+
+.webinar h1{
+    display: block;
+    text-align: center;
+    /* margin: auto; */
+    font: normal normal normal 40px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 20px auto;
+}
+.webinar h2{
+    display: block;
+    text-align: center;
+    font: normal normal normal 32px Product Sans;
+    letter-spacing: 0px;
+    color: #DCDCDC;
+    opacity: 1;
+    margin: 0;
+}
+.webinar p{
+    text-align: center;
+    font: normal normal normal 20px Product Sans;
+    letter-spacing: 0px;
+    color: #737373;
+    opacity: 1;
+    margin: 20px 15vw;
+}

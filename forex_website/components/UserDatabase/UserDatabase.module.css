@@ -1,0 +1,251 @@
+.userdatabase{
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2e2e2e;
+}
+
+.userdatabase h1{
+    margin-top: 0;
+    text-align: center;
+    font: normal normal normal 45px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.userdatabase span{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 90vw;
+    margin: auto;
+}
+
+.userdatabase span h4 {
+    border-right: none;
+    word-wrap: break-word;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.userdatabase ul{
+    width: 90vw;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    align-items: center;
+    background: #5D5D5D 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.userdatabase ul li{
+    text-align: center;
+    font: normal normal normal 22px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* 
+.userdatabase section{
+    width: 90vw;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.userdatabase section div{
+    text-align: center;
+    
+    opacity: 1;
+    display: block;
+    height: 350px;
+    border-left: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.userdatabase section div span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.userdatabase section div span p{
+    text-align: center;
+    font: normal normal normal 15px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+} */
+
+.userdatabase h4 span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.userdatabase h4 span p{
+    text-align: center;
+    font: normal normal normal 15px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+} 
+
+.green{
+    color: #28EA00!important;
+}
+
+.lastdiv{
+    border-right: 1px solid #FFFFFF;
+}
+
+
+@media (max-width: 1100px) {
+    .userdatabase h1{
+        font: normal normal normal 35px Product Sans;
+    }
+    .userdatabase ul li{
+        font: normal normal normal 18px Product Sans;
+    }
+    .userdatabase section div span p{
+        font: normal normal normal 12px Product Sans;
+    }
+
+    .lastdiv span p{
+        /* font: normal normal normal 14px Product Sans!important; */
+
+    }
+}
+@media (max-width: 900px) {
+    .userdatabase h1{
+        font: normal normal normal 25px Product Sans;
+    }
+    .userdatabase ul li{
+        font: normal normal normal 15px Product Sans;
+    }
+    .userdatabase section div span p{
+        font: normal normal normal 10px Product Sans;
+    }
+    .lastdiv span p{
+        /* font: normal normal normal 13px Product Sans!important; */
+
+    }
+}
+@media (max-width: 700px) {
+    .userdatabase h1{
+        font: normal normal normal 15px Product Sans;
+    }
+    .userdatabase ul li{
+        font: normal normal normal 10px Product Sans;
+    }
+    .userdatabase section div span p{
+        font: normal normal normal 7px Product Sans;
+    }
+
+    .userdatabase h4{
+
+        font: normal normal normal 13px Product Sans!important;
+    }
+    .lastdiv span p{
+        font: normal normal normal 13px Product Sans!important;
+
+    }
+    .userdatabase ul{
+        grid-template-columns: 17.5% 17.5% 17.5% 17.5% 30%;
+    }
+    .userdatabase span{
+        grid-template-columns: 17.5% 17.5% 17.5% 17.5% 30%;
+    }
+}
+
+@media (max-width: 550px) {
+    .userdatabase h4{
+
+        font: normal normal normal 12px Product Sans!important;
+    }
+    .lastdiv span p{
+        font: normal normal normal 12px Product Sans!important;
+    }
+}
+
+@media (max-width:500px) {
+    .userdatabase h1{
+        font: normal normal normal 15px Product Sans;
+    }
+    .userdatabase ul li{
+        font: normal normal normal 8px Product Sans;
+    }
+    .userdatabase section div span p{
+        font: normal normal normal 10px Product Sans;
+    }
+    .userdatabase section div span{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width:400px) {
+    .userdatabase h4{
+
+        font: normal normal normal 11px Product Sans!important;
+    }
+    .lastdiv span p{
+        font: normal normal normal 11px Product Sans!important;
+    }
+}
+
+@media (max-width:350px) {
+    .userdatabase h1{
+        font: normal normal normal 15px Product Sans;
+    }
+    .userdatabase ul li{
+        font: normal normal normal 7px Product Sans;
+    }
+    .userdatabase section div span p{
+        font: normal normal normal 10px Product Sans;
+    }
+    .userdatabase section div span{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        width: 90%;
+        margin: auto;
+    }
+    .userdatabase h4{
+
+        font: normal normal normal 10px Product Sans!important;
+    }
+    .lastdiv span p{
+        font: normal normal normal 10px Product Sans!important;
+    }
+}

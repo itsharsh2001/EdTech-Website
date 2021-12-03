@@ -1,0 +1,220 @@
+/* .draggable{
+    display: block;
+    width: 90%;
+    margin: auto;
+} */
+
+.forexMarkettimezoneconvertor{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    height: 900px;
+    margin-top: 40px;
+}
+
+.forexMarkettimezoneconvertor h1{
+    padding-top: 0!important;
+    margin-bottom: 0!important;
+    margin-left: 5%;
+    margin-top: 40px!important;
+    font-size: 25px!important;
+}
+
+.forexMarkettimezoneconvertor select{
+    /* margin-top: -50px!important; */
+
+    display: block;
+}
+.forexMarkettimezoneconvertor h3{
+    margin-top: -50px!important;
+
+    display: block;
+}
+
+.switchsection{
+    width: 100%;
+    display: flex;
+    align-items: center!important;
+    justify-items: center!important;
+    margin: 0;
+    padding: 0!important;
+    margin-left: 5%!important;
+    margin-bottom: 60px!important;
+}
+
+.switch{
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    /* padding: 0px!important; */
+}
+
+.forexMarkettimezoneconvertor div{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 70% 30%;
+    width: 90%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column!important;
+    clip-path: polygon(100% 1%, 100% 60%, 50% 100%, 0 60%, 0 0);
+    filter: drop-shadow(0px 0px 20px #000000);
+    border-radius: 10px;
+    width: 80px!important;
+    border: none;
+    outline: none;
+    height: 130px;
+    background: #636363 0% 0% no-repeat padding-box;
+    z-index: 100;
+}
+
+.needle{
+    z-index: 100;
+display: block;
+width: 2px;
+height: 800px;
+background-color: white;
+}
+
+.box span{
+    display: flex;
+    flex-direction: column!important;
+}
+
+.imagearr{
+    display: flex!important;
+    flex-direction: row!important;
+    /* width: 100%; */
+    height: 300px;
+    overflow-x: hidden;
+    /* position: absolute; */
+}
+
+.imagearr img{
+    height: 300px;
+    /* width: 100%; */
+    margin: 0!important;
+    padding: 0!important;
+    /* transform: translateX(-100%);
+    transition: all ease 5s; */
+}
+
+.number{
+    margin-left: 40%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.forexMarkettimezoneconvertor section{
+    width: 80%;
+    margin: auto;
+    padding: 0!important;
+}
+
+.forexMarkettimezoneconvertor section main{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag div{
+    background: #616161 0% 0% no-repeat padding-box;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    opacity: 1;
+    margin: 0!important;
+    padding: 0!important;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 15px!important;
+    margin-top: 15px!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flag div img{
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.flag div span{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag div span h6{
+    margin: 0!important;
+    padding: 0!important;
+    text-align: left;
+    font: normal normal bold 15px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: block;
+}
+
+.flag div span p{
+    margin: 0!important;
+    padding: 0!important;
+    text-align: left;
+    font: normal normal bold 13px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: block;
+}
+
+.gray{
+    height: 200px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray p{
+    margin: 0!important;
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+
+
+.imagearr2{
+    display: flex!important;
+    flex-direction: row!important;
+    /* width: 100%; */
+    height: 200px;
+    overflow-x: hidden;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.imagearr2 img{
+    height: 200px;
+    width: 100%;
+    /* width: 100%; */
+    margin: 0!important;
+    padding: 0!important;
+    /* transform: translateX(-100%);
+    transition: all ease 5s; */
+}
+
+/* .forexMarkettimezoneconvertor section main>img{
+    flex: 0.4;
+}
+
+.forexMarkettimezoneconvertor section main div{
+    flex: 0.6;
+} */

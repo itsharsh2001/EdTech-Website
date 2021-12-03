@@ -1,0 +1,597 @@
+.gainloss{
+    display: block;
+    width: 100%;
+    background-color: #2e2e2e;
+    height: 100%;
+    z-index: 1;
+}
+
+.table{
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 100%!important;
+    height: 500px!important;
+    margin: 0;
+    background: #4A4A4A 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    color: #ffffff;
+    padding: 5%;
+}
+
+.table tr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 19% 19% 19% 19% 19%;
+}
+
+.table th{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.lastrow{
+    border: none!important;
+}
+
+.gray{
+    color: #ccc!important;
+    font-style: italic;
+    font-weight: 300!important;
+}
+
+.table td{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.firstcolumn{
+    border: none!important;
+}
+
+.gainloss section{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+
+.gainloss section span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.gainloss section h1{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+
+.gainloss section h5{
+    text-align: left;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.gainloss section p{
+    text-align: left;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.gainloss section input{
+    background: #767676 0% 0% no-repeat padding-box;
+    font-family: Product Sans;
+    color: white;
+    border-radius: 10px;
+    opacity: 1;
+    width: 20%;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gainloss section input::placeholder{
+    color: #ccc;
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.gainloss section button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border-radius: 10px;
+    width: 40.7%;
+    height: 40px;
+    font-family: Product Sans;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600!important;
+    cursor: pointer;
+}
+
+.italic{
+    text-align: left;
+    margin: 0px;
+    color: #767676!important;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    width: 70%;
+}
+
+.gainloss section span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 50px;
+}
+.gainloss section span div{
+    width: 48%!important;
+    height: 400px;
+}
+
+.gainloss section span div:nth-child(1){
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    border-right: 1px solid white;
+}
+
+.gainloss section span div:nth-child(1) select{
+    width: 84%;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 2%;
+    background-color: #767676;
+    color: #ccc;
+    padding-right: 2%;
+    margin-left: 0;
+}
+.gainloss section span div:nth-child(1) input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: block;
+    font-family: Product Sans;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    margin-left: 0;
+}
+
+.gainloss section span div:nth-child(2){
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    /* margin: 0; */
+}
+
+.gainloss section span div:nth-child(2) h5 {
+    font-size: 30px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0!important;
+    align-self: center;
+}
+/* .gainloss section span div:nth-child(2) p {
+    font-size: 15px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0!important;
+    align-self: center;
+} */
+.gainloss section span div:nth-child(2) span {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start!important;
+    justify-content: space-between!important;
+    align-self: center;
+}
+.gainloss section span div:nth-child(2) span p {
+    margin: 0;
+    align-self: flex-start;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    /* margin: 0!important; */
+    /* align-self: center; */
+}
+
+.gainloss section span div:nth-child(2) span p a{
+    color: #0099ff!important;
+    text-decoration: none!important;   
+}
+
+.bigbutton{
+    width: 85%!important;
+    font-family: Product Sans;
+    color: white;
+    margin-top: 45px!important;
+}
+
+@media (max-width: 1200px) {
+    .gainloss section input{
+        width: 22%;
+    }
+
+    .gainloss section button{
+        width: 24%; 
+    }
+    .gainloss section span{
+        width: 100%;
+    }
+    .bigbutton{
+        width: 100%!important;
+    }
+}
+@media (max-width: 1000px) {
+    .gainloss section span input{
+        width: 22%;
+    }
+    .gainloss section h1{
+        font-size: 35px;
+        margin-bottom: 100px;
+        padding-top: 80px;
+    }
+    
+    .gainloss section h5{
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    
+    .gainloss section p{
+        text-align: left;
+        margin: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .gainloss section span div:nth-child(2) p{
+        text-align: left;
+        margin: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .gainloss section input{
+        width: 23%;
+        font-size: 14px;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 20px;
+    }
+    
+    .gainloss section input::placeholder{
+        font-size: 14px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .gainloss section button{
+        width: 25%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .italic{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 800px) {
+    .gainloss section table{
+        font-size: 14px;
+    }
+    .gainloss section h1{
+        font-size: 30px;
+        margin-bottom: 70px;
+        padding-top: 60px;
+    }
+    
+    .gainloss section h5{
+        font-size: 15px;
+        margin-top: 60px;
+    }
+    
+    .gainloss section p{
+        text-align: left;
+        margin: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    .gainloss section span div:nth-child(2) p{
+        font-size: 13px;
+    }
+    
+    .gainloss section input{
+        width: 25%;
+        font-size: 13px;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 20px;
+    }
+    
+    .gainloss section input::placeholder{
+        font-size: 13px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .gainloss section button{
+        width: 27%;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    .italic{
+        font-size: 13px;
+    }
+    .gainloss section span div:nth-child(2) span p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 685px) {
+    .gainloss section h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding-top: 40px;
+    }
+    
+    .gainloss section h5{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    
+    .gainloss section p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    
+    .gainloss section input{
+        width: 35%;
+        font-size: 13px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 10px;
+    }
+    
+    .gainloss section input::placeholder{
+        font-size: 13px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .gainloss section button{
+        width: 92.4%;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .italic{
+        font-size: 13px;
+    }   
+    .gainloss section span{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .gainloss section span input{
+        width: 80%!important;
+    }
+    .gainloss section table{
+        font-size: 13px;
+        /* width: 90vw!important; */
+        /* margin: 0!important; */
+    }
+}
+
+@media (max-width: 630px){
+    .gainloss section span div:nth-child(1) input,
+    .gainloss section span div:nth-child(1) select
+    {
+        font-size: 12px;
+    }
+    .gainloss section span div:nth-child(1) input::placeholder
+    {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .gainloss section{
+        width: 85%;
+    }
+}
+
+@media (max-width: 453px) {
+    
+    .gainloss section h1{
+        font-size: 22px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+    }
+    
+    .gainloss section h5{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .gainloss section p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    
+    .gainloss section input{
+        width: 45%;
+        font-size: 13px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-top: 10px;
+        height: 35px;
+    }
+    
+    .gainloss section input::placeholder{
+        font-size: 13px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .gainloss section button{
+        width: 51%;
+        font-size: 13px;
+        margin-top: 10px;
+        height: 35px;
+    }
+    
+    .italic{
+        font-size: 13px;
+    }
+    .gainloss section span input{
+        width: 80%!important;
+        height: 30px;
+    }
+    .gainloss section button{
+        width: 92.5%!important;
+        height: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .gainloss section span div:nth-child(2) p{
+        font-size: 11px;
+    }
+    .gainloss section span div:nth-child(1) input,
+    .gainloss section span div:nth-child(1) select
+    {
+        font-size: 12px;
+    }
+    .gainloss section span div:nth-child(1) input::placeholder
+    {
+        font-size: 12px;
+    }
+    .gainloss section span div:nth-child(2) span p {
+        font-size: 14px;
+    }
+    .gainloss section table{
+        font-size: 12px;
+        /* width: 90vw!important; */
+        /* margin: 0!important; */
+    }
+}
+@media (max-width: 360px) {
+    .gainloss section span div:nth-child(1) input,
+    .gainloss section span div:nth-child(1) select
+    {
+        font-size: 11px;
+    }
+    .gainloss section span div:nth-child(1) input::placeholder
+    {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .gainloss section input{
+        width: 50%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .gainloss section input::placeholder{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .gainloss section button{
+        width: 56%;
+    }
+    .gainloss section table{
+        font-size: 11px;
+        /* width: 90vw!important; */
+        /* margin: 0!important; */
+    }
+}
+
+@media (max-width: 336px) {
+    .gainloss section span div:nth-child(1) input,
+    .gainloss section span div:nth-child(1) select
+    {
+        font-size: 10px;
+    }
+    .gainloss section span div:nth-child(1) input::placeholder
+    {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .gainloss section table{
+        font-size: 10px;
+        /* width: 90vw!important; */
+        /* margin: 0!important; */
+    }
+}
+
+@media (max-width: 312px) {
+    .gainloss section span div:nth-child(1) input,
+    .gainloss section span div:nth-child(1) select
+    {
+        font-size: 9px;
+    }
+    .gainloss section span div:nth-child(1) input::placeholder
+    {
+        font-size: 9px;
+    }
+}

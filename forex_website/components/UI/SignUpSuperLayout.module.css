@@ -1,0 +1,29 @@
+.signupsuperlayout{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    /* box-shadow: #000000 0px 10px 20px; */
+    /* margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px; */
+    /* max-width: 1700px; */
+    /* max-height: 900px; */
+    /* height: 550px; */
+    width: 100vw;
+    height: 100vh;
+    /* border-radius: 30px; */
+    /* display: flex; */
+    /* background: transparent radial-gradient(closest-side at 63% 50%, #626262 0%, #292929 100%) 0% 0% no-repeat padding-box; */
+    /* opacity: 0.89; */
+    /* max-width: 1700px; */
+    /* height: 600px; */
+    display: flex;
+    align-items: center;
+}
+
+.signupsuperlayout{
+    overflow-y: scroll;
+}

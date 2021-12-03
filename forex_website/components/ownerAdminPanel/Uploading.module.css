@@ -1,0 +1,124 @@
+.box{
+    /* width: 1440px; */
+    /* height: 540px; */
+    position: fixed;
+    top: 33vh;
+    bottom: 33vh;
+    left: 20vw;
+    right: 20vw;
+    width: 60vw;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #424242 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 50px #000000;
+    /* margin-top: 40px; */
+    border-radius: 10px;
+}
+
+.box form{
+    width:70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box form input{
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+    background: #797979 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 34px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 22px Product Sans;
+    letter-spacing: 0px;
+    color: #C5C5C5;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box form input::placeholder{
+    color: #C5C5C5;
+}
+
+.box form span{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    background: linear-gradient(90deg, #2a2a2a 0%,#383838 70%, #797979 100%);
+    border-radius: 10px;
+    height: 34px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 22px Product Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box form button{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    height: 34px;
+    margin-top: 5px;
+    font: normal normal normal 22px Product Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+@media (max-width:1100px) {
+    .box form input{
+        font-size: 18px;
+    }
+    .box form button{
+        font-size: 18px;
+    }
+}
+@media (max-width:800px) {
+    .box form input{
+        font-size: 15px;
+    }
+    .box form button{
+        font-size: 15px;
+    }
+    .box{
+        left: 10vw;
+        right: 10vw;
+        width: 80vw;
+    }
+}
+@media (max-width:400px) {
+    .box form input{
+        font-size: 14px;
+    }
+    .box form button{
+        font-size: 14px;
+    }
+    .box{
+        left: 5vw;
+        right: 5vw;
+        width: 90vw;
+    }
+}
